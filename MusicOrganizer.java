@@ -170,4 +170,9 @@ public class MusicOrganizer
             addTrack(track);
         }
     }
+    
+    private void playRandom()
+    {
+        
+    }
 }
