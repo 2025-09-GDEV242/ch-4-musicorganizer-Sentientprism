@@ -177,11 +177,9 @@ public class MusicOrganizer
     {
       int chosenSongNumber;
       Track chosenSong;
-      String chosenSongName;
       
       chosenSongNumber = randomGenerator.nextInt(tracks.size());
       chosenSong = tracks.get(chosenSongNumber);
-      chosenSongName = chosenSong.getFilename();
-      player.startPlaying(chosenSongName);
+      player.startPlaying(chosenSong.getFilename());
     }
 }
